@@ -1,5 +1,6 @@
 import React from 'react';
 import AboutPage from './AboutPage';
+import ResumePage from './ResumePage';
 
 class MainStuff extends React.Component {
 	constructor(props) {
@@ -23,7 +24,7 @@ class MainStuff extends React.Component {
 		if(this.state.show_who===0)
 			return(<AboutPage/>);
 		else if(this.state.show_who===1)
-			return("");
+			return(<ResumePage/>);
 		else
 			return("");
   	}

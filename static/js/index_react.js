@@ -303,6 +303,20 @@ module.exports = emptyFunction;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+/* WEBPACK VAR INJECTION */(function(process) {
+
+if (process.env.NODE_ENV === 'production') {
+  module.exports = __webpack_require__(16);
+} else {
+  module.exports = __webpack_require__(17);
+}
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
+
+/***/ }),
+/* 3 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
 /* WEBPACK VAR INJECTION */(function(process) {/**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -356,20 +370,6 @@ function invariant(condition, format, a, b, c, d, e, f) {
 }
 
 module.exports = invariant;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
-
-/***/ }),
-/* 3 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(process) {
-
-if (process.env.NODE_ENV === 'production') {
-  module.exports = __webpack_require__(16);
-} else {
-  module.exports = __webpack_require__(17);
-}
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
@@ -578,7 +578,7 @@ module.exports = warning;
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
 if (process.env.NODE_ENV !== 'production') {
-  var invariant = __webpack_require__(2);
+  var invariant = __webpack_require__(3);
   var warning = __webpack_require__(6);
   var ReactPropTypesSecret = __webpack_require__(8);
   var loggedTypeFailures = {};
@@ -963,7 +963,7 @@ module.exports = getActiveElement;
 "use strict";
 
 
-var _react = __webpack_require__(3);
+var _react = __webpack_require__(2);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -1134,7 +1134,7 @@ if (process.env.NODE_ENV !== "production") {
     'use strict';
 
     var _assign = __webpack_require__(4);
-    var invariant = __webpack_require__(2);
+    var invariant = __webpack_require__(3);
     var emptyObject = __webpack_require__(5);
     var warning = __webpack_require__(6);
     var emptyFunction = __webpack_require__(1);
@@ -2519,7 +2519,7 @@ if (process.env.NODE_ENV === 'production') {
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
-var aa = __webpack_require__(3);__webpack_require__(2);var l = __webpack_require__(9),
+var aa = __webpack_require__(2);__webpack_require__(3);var l = __webpack_require__(9),
     n = __webpack_require__(4),
     ba = __webpack_require__(10),
     ca = __webpack_require__(1),
@@ -4971,7 +4971,7 @@ module.exports = isNode;
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
- */var _typeof=typeof Symbol==="function"&&typeof Symbol.iterator==="symbol"?function(obj){return typeof obj;}:function(obj){return obj&&typeof Symbol==="function"&&obj.constructor===Symbol&&obj!==Symbol.prototype?"symbol":typeof obj;};if(process.env.NODE_ENV!=="production"){(function(){'use strict';var react=__webpack_require__(3);var invariant=__webpack_require__(2);var ExecutionEnvironment=__webpack_require__(9);var _assign=__webpack_require__(4);var EventListener=__webpack_require__(10);var require$$0=__webpack_require__(6);var hyphenateStyleName=__webpack_require__(23);var emptyFunction=__webpack_require__(1);var camelizeStyleName=__webpack_require__(25);var performanceNow=__webpack_require__(27);var propTypes=__webpack_require__(29);var emptyObject=__webpack_require__(5);var checkPropTypes=__webpack_require__(7);var shallowEqual=__webpack_require__(11);var containsNode=__webpack_require__(12);var focusNode=__webpack_require__(13);var getActiveElement=__webpack_require__(14);/**
+ */var _typeof=typeof Symbol==="function"&&typeof Symbol.iterator==="symbol"?function(obj){return typeof obj;}:function(obj){return obj&&typeof Symbol==="function"&&obj.constructor===Symbol&&obj!==Symbol.prototype?"symbol":typeof obj;};if(process.env.NODE_ENV!=="production"){(function(){'use strict';var react=__webpack_require__(2);var invariant=__webpack_require__(3);var ExecutionEnvironment=__webpack_require__(9);var _assign=__webpack_require__(4);var EventListener=__webpack_require__(10);var require$$0=__webpack_require__(6);var hyphenateStyleName=__webpack_require__(23);var emptyFunction=__webpack_require__(1);var camelizeStyleName=__webpack_require__(25);var performanceNow=__webpack_require__(27);var propTypes=__webpack_require__(29);var emptyObject=__webpack_require__(5);var checkPropTypes=__webpack_require__(7);var shallowEqual=__webpack_require__(11);var containsNode=__webpack_require__(12);var focusNode=__webpack_require__(13);var getActiveElement=__webpack_require__(14);/**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
  * This source code is licensed under the MIT license found in the
@@ -8634,7 +8634,7 @@ if (process.env.NODE_ENV !== 'production') {
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
 var emptyFunction = __webpack_require__(1);
-var invariant = __webpack_require__(2);
+var invariant = __webpack_require__(3);
 var warning = __webpack_require__(6);
 var assign = __webpack_require__(4);
 
@@ -9157,7 +9157,7 @@ module.exports = function (isValidElement, throwOnDirectAccess) {
 
 
 var emptyFunction = __webpack_require__(1);
-var invariant = __webpack_require__(2);
+var invariant = __webpack_require__(3);
 var ReactPropTypesSecret = __webpack_require__(8);
 
 module.exports = function () {
@@ -9214,13 +9214,17 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(3);
+var _react = __webpack_require__(2);
 
 var _react2 = _interopRequireDefault(_react);
 
 var _AboutPage = __webpack_require__(33);
 
 var _AboutPage2 = _interopRequireDefault(_AboutPage);
+
+var _ResumePage = __webpack_require__(34);
+
+var _ResumePage2 = _interopRequireDefault(_ResumePage);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -9261,7 +9265,7 @@ var MainStuff = function (_React$Component) {
 	}, {
 		key: 'render',
 		value: function render() {
-			if (this.state.show_who === 0) return _react2.default.createElement(_AboutPage2.default, null);else if (this.state.show_who === 1) return "";else return "";
+			if (this.state.show_who === 0) return _react2.default.createElement(_AboutPage2.default, null);else if (this.state.show_who === 1) return _react2.default.createElement(_ResumePage2.default, null);else return "";
 		}
 	}]);
 
@@ -9283,7 +9287,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(3);
+var _react = __webpack_require__(2);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -9317,61 +9321,65 @@ var AboutPage = function (_React$Component) {
 		value: function render() {
 			return _react2.default.createElement(
 				"div",
-				{ className: "codeboard" },
+				{ className: "AboutPagebackground" },
 				_react2.default.createElement(
-					"p",
-					{ className: "codeinput" },
-					">\xA0\xA0\xA0\xA0CheWei.welcome()"
-				),
-				_react2.default.createElement(
-					"p",
-					{ className: "codeoutputNotend" },
-					"\xA0\xA0\xA0\xA0\xA0\xA0=>\xA0\"Hi, I am Che Wei Wang (Wayne Wang). /"
-				),
-				_react2.default.createElement(
-					"p",
-					{ className: "codeoutput" },
-					"\xA0\xA0\xA0\xA0\xA0\xA0=>\xA0This is my personal website where I practice and showoff :) some web dev skills.\""
-				),
-				_react2.default.createElement(
-					"p",
-					{ className: "codeinput" },
-					">\xA0\xA0\xA0\xA0CheWei.origin"
-				),
-				_react2.default.createElement(
-					"p",
-					{ className: "codeoutput" },
-					"\xA0\xA0\xA0\xA0\xA0\xA0=>\xA0\"Taipei, Taiwan.\""
-				),
-				_react2.default.createElement(
-					"p",
-					{ className: "codeinput" },
-					">\xA0\xA0\xA0\xA0CheWei.education"
-				),
-				_react2.default.createElement(
-					"p",
-					{ className: "codeoutput" },
-					"\xA0\xA0\xA0\xA0\xA0\xA0=>\xA0\"University of Michigan, Computer Science major.\""
-				),
-				_react2.default.createElement(
-					"p",
-					{ className: "codeinput" },
-					">\xA0\xA0\xA0\xA0CheWei.expectedGraduation"
-				),
-				_react2.default.createElement(
-					"p",
-					{ className: "codeoutput" },
-					"\xA0\xA0\xA0\xA0\xA0\xA0=>\xA0\"April, 2020.\""
-				),
-				_react2.default.createElement(
-					"p",
-					{ className: "codeinput" },
-					">\xA0\xA0\xA0\xA0CheWei.interests"
-				),
-				_react2.default.createElement(
-					"p",
-					{ className: "codeoutput" },
-					"\xA0\xA0\xA0\xA0\xA0\xA0=>\xA0\"I love coding, learning, cooking and playing computer games with friends.\""
+					"div",
+					{ className: "codeboard" },
+					_react2.default.createElement(
+						"p",
+						{ className: "codeinput" },
+						">\xA0\xA0\xA0\xA0CheWei.welcome()"
+					),
+					_react2.default.createElement(
+						"p",
+						{ className: "codeoutputNotend" },
+						"\xA0\xA0\xA0\xA0\xA0\xA0=>\xA0\"Hi, I am Che Wei Wang (Wayne Wang). /"
+					),
+					_react2.default.createElement(
+						"p",
+						{ className: "codeoutput" },
+						"\xA0\xA0\xA0\xA0\xA0\xA0=>\xA0This is my personal website where I practice and showoff :) some web dev skills.\""
+					),
+					_react2.default.createElement(
+						"p",
+						{ className: "codeinput" },
+						">\xA0\xA0\xA0\xA0CheWei.origin"
+					),
+					_react2.default.createElement(
+						"p",
+						{ className: "codeoutput" },
+						"\xA0\xA0\xA0\xA0\xA0\xA0=>\xA0\"Taipei, Taiwan.\""
+					),
+					_react2.default.createElement(
+						"p",
+						{ className: "codeinput" },
+						">\xA0\xA0\xA0\xA0CheWei.education"
+					),
+					_react2.default.createElement(
+						"p",
+						{ className: "codeoutput" },
+						"\xA0\xA0\xA0\xA0\xA0\xA0=>\xA0\"University of Michigan, Computer Science major.\""
+					),
+					_react2.default.createElement(
+						"p",
+						{ className: "codeinput" },
+						">\xA0\xA0\xA0\xA0CheWei.expectedGraduation"
+					),
+					_react2.default.createElement(
+						"p",
+						{ className: "codeoutput" },
+						"\xA0\xA0\xA0\xA0\xA0\xA0=>\xA0\"April, 2020.\""
+					),
+					_react2.default.createElement(
+						"p",
+						{ className: "codeinput" },
+						">\xA0\xA0\xA0\xA0CheWei.interests"
+					),
+					_react2.default.createElement(
+						"p",
+						{ className: "codeoutput" },
+						"\xA0\xA0\xA0\xA0\xA0\xA0=>\xA0\"I love coding, learning, cooking and playing computer games with friends.\""
+					)
 				)
 			);
 		}
@@ -9381,6 +9389,68 @@ var AboutPage = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = AboutPage;
+
+/***/ }),
+/* 34 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(2);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var ResumePage = function (_React$Component) {
+	_inherits(ResumePage, _React$Component);
+
+	function ResumePage(props) {
+		_classCallCheck(this, ResumePage);
+
+		var _this = _possibleConstructorReturn(this, (ResumePage.__proto__ || Object.getPrototypeOf(ResumePage)).call(this, props));
+		//  Initialize mutable state
+
+
+		_this.state = {};
+		return _this;
+	}
+
+	_createClass(ResumePage, [{
+		key: "componentDidMount",
+		value: function componentDidMount() {}
+	}, {
+		key: "render",
+		value: function render() {
+			return _react2.default.createElement(
+				"div",
+				{ className: "ResumePagebackground" },
+				_react2.default.createElement(
+					"a",
+					{ href: "static/image/Resume(Letter+USA+Web).pdf" },
+					_react2.default.createElement("img", { className: "resume_photo", src: "static/image/Resume(Letter+USA+Web).png" })
+				)
+			);
+		}
+	}]);
+
+	return ResumePage;
+}(_react2.default.Component);
+
+exports.default = ResumePage;
 
 /***/ })
 /******/ ]);

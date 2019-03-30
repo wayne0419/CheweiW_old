@@ -71,12 +71,14 @@ header{
 }
 /*main background style*/
 main{
-	background:#D28B3B;
-	height:3000px;
 	text-align:center;
 }
 
-/*about page style*/
+/* About page style*/
+.AboutPagebackground{
+	background:#D28B3B;
+	height:200vh;
+}
 .codeboard{
 	font-size: 20px;
 	text-align:left;
@@ -104,5 +106,19 @@ main{
 	margin:0 0 10px 0;
 	color:#cccccc;
 }
+
+
+/*ResumePage style*/
+.ResumePagebackground{
+	background:#6AA0AA;
+	height:200vh;
+}
+.resume_photo{
+	margin: 200px;
+	width:40%;
+	
+}
+
+
 /*backup color*/
 /*#4C6961*/
