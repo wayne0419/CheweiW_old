@@ -1,9 +1,5 @@
 # gitignore
 
-# db
-*.db
-var/
-
 # Python
 *.pyc
 __pycache__/
@@ -16,8 +12,8 @@ venv3/
 .pytest_cache
 
 # JavaScript
+nenv/
 node_modules/
-files_for_autograder_io/
 */var/*
 npm-debug*
 
