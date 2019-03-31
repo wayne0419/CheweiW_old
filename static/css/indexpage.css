@@ -1,3 +1,8 @@
+/*font*/
+@font-face {
+	font-family: Monaco;
+	src: url('../font/Monaco.ttf');
+}
 /* Name bar style*/
 header{
     text-align: center;
@@ -78,20 +83,68 @@ main{
 .AboutPagebackground{
 	background:#D28B3B;
 }
+.codeboardtop{
+	text-align:left;
+	display:inline-block;
+	width: 60%;
+	padding: 0 50px 0 50px;
+	height: 40px;
+	margin: 200px 0 -3px 0;
+	background-color:#504E47;
+	border-style:solid;
+	border-color:#504E47;
+	border-width:0px 0 0 0;
+	border-radius: 10px 10px 0px 0px;
+	overflow:hidden;
+	
+}
+.codeboardtop_red{
+	display: inline-block;
+	height:17px;
+	width:17px;
+	margin: 11px 0 0 -35px;
+	background-color: #FF615F;
+	border-style:solid;
+	border-color:#504E47;
+	border-width:0px 0 0 0;
+	border-radius: 50%;
+}
+.codeboardtop_yellow{
+	display: inline-block;
+	height:17px;
+	width:17px;
+	margin: 11px 0 0 11px;
+	background-color: #FFBF5A;
+	border-style:solid;
+	border-color:#504E47;
+	border-width:0px 0 0 0;
+	border-radius: 50%;
+}
+.codeboardtop_green{
+	display: inline-block;
+	height:17px;
+	width:17px;
+	margin: 11px 0 0 11px;
+	background-color: #1EC85A;
+	border-style:solid;
+	border-color:#504E47;
+	border-width:0px 0 0 0;
+	border-radius: 50%;
+}
 .codeboard{
 	font-size: 20px;
 	text-align:left;
 	display:inline-block;
 	background:#383737;
-	margin: 200px 0 200px 0;
+	margin: 0px 0 200px 0;
 	width:60%;
 	height:500px;
 	padding: 50px;
 	font-family:Helvetica, sans-serif, Arial;
 	border-style:solid;
 	border-color:#504E47;
-	border-width:20px 0 0 0;
-	border-radius: 10px 5px ;
+	border-width:0px 0 0 0;
+	border-radius: 0px 0px 10px 10px;
 }
 .codeinput{
 	margin:0 0 10px 0;
@@ -113,7 +166,7 @@ main{
 }
 .resume_photo{
 	margin: 200px;
-	width:40%;
+	width:60%;
 }
 
 

@@ -13,7 +13,7 @@ class ResumePage extends React.Component {
 	render() {
 		return (
 			<div className="ResumePagebackground">
-				<a href="static/image/CheWeiWangResume(Letter).pdf"><img className="resume_photo" src="static/image/CheWeiWangResume(Letter).png"></img></a>
+				<img className="resume_photo" src="static/image/CheWeiWangResume(Letter).png"></img>
 			</div>
 		);
 	}

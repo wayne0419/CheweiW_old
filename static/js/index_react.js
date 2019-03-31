@@ -9324,6 +9324,13 @@ var AboutPage = function (_React$Component) {
 				{ className: "AboutPagebackground" },
 				_react2.default.createElement(
 					"div",
+					{ className: "codeboardtop" },
+					_react2.default.createElement("span", { className: "codeboardtop_red" }),
+					_react2.default.createElement("span", { className: "codeboardtop_yellow" }),
+					_react2.default.createElement("span", { className: "codeboardtop_green" })
+				),
+				_react2.default.createElement(
+					"div",
 					{ className: "codeboard" },
 					_react2.default.createElement(
 						"p",
@@ -9333,7 +9340,7 @@ var AboutPage = function (_React$Component) {
 					_react2.default.createElement(
 						"p",
 						{ className: "codeoutputNotend" },
-						"\xA0\xA0\xA0\xA0\xA0\xA0=>\xA0\"Hi, I am Che Wei Wang (Wayne Wang). /"
+						"\xA0\xA0\xA0\xA0\xA0\xA0=>\xA0\"Hi, I am Che Wei Wang (Wayne Wang)."
 					),
 					_react2.default.createElement(
 						"p",
@@ -9358,7 +9365,7 @@ var AboutPage = function (_React$Component) {
 					_react2.default.createElement(
 						"p",
 						{ className: "codeoutputNotend" },
-						"\xA0\xA0\xA0\xA0\xA0\xA0=>\xA0[\"University of Michigan, Computer Science Major.\", /"
+						"\xA0\xA0\xA0\xA0\xA0\xA0=>\xA0[\"University of Michigan, Computer Science Major.\","
 					),
 					_react2.default.createElement(
 						"p",
@@ -9375,7 +9382,7 @@ var AboutPage = function (_React$Component) {
 						{ className: "codeoutput" },
 						"\xA0\xA0\xA0\xA0\xA0\xA0=>\xA0",
 						"{",
-						"UM\":\"April, 2020\",\"SJTU\":\"August, 2020\"",
+						"UM\": \"April, 2020\", \"SJTU\": \"August, 2020\"",
 						"}"
 					),
 					_react2.default.createElement(
@@ -9387,6 +9394,11 @@ var AboutPage = function (_React$Component) {
 						"p",
 						{ className: "codeoutput" },
 						"\xA0\xA0\xA0\xA0\xA0\xA0=>\xA0\"I love coding, learning, cooking and playing computer games with friends.\""
+					),
+					_react2.default.createElement(
+						"p",
+						{ className: "codeinput" },
+						">\xA0\xA0\xA0\xA0_"
 					)
 				)
 			);
@@ -9446,11 +9458,7 @@ var ResumePage = function (_React$Component) {
 			return _react2.default.createElement(
 				"div",
 				{ className: "ResumePagebackground" },
-				_react2.default.createElement(
-					"a",
-					{ href: "static/image/CheWeiWangResume(Letter).pdf" },
-					_react2.default.createElement("img", { className: "resume_photo", src: "static/image/CheWeiWangResume(Letter).png" })
-				)
+				_react2.default.createElement("img", { className: "resume_photo", src: "static/image/CheWeiWangResume(Letter).png" })
 			);
 		}
 	}]);
