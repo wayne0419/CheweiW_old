@@ -9309,13 +9309,25 @@ var AboutPage = function (_React$Component) {
 		//  Initialize mutable state
 
 
-		_this.state = {};
+		_this.state = { blinking_dash: "_" };
+		_this.dash_blinking = _this.dash_blinking.bind(_this);
 		return _this;
 	}
 
 	_createClass(AboutPage, [{
 		key: "componentDidMount",
-		value: function componentDidMount() {}
+		value: function componentDidMount() {
+			setInterval(this.dash_blinking, 500);
+		}
+	}, {
+		key: "dash_blinking",
+		value: function dash_blinking() {
+			if (this.state.blinking_dash === "_") {
+				this.setState({ blinking_dash: " " });
+			} else {
+				this.setState({ blinking_dash: "_" });
+			}
+		}
 	}, {
 		key: "render",
 		value: function render() {
@@ -9365,12 +9377,12 @@ var AboutPage = function (_React$Component) {
 					_react2.default.createElement(
 						"p",
 						{ className: "codeoutputNotend" },
-						"\xA0\xA0\xA0\xA0\xA0\xA0=>\xA0[\"University of Michigan, Computer Science Major.\","
+						"\xA0\xA0\xA0\xA0\xA0\xA0=>\xA0[ \"University of Michigan, Computer Science Major.\","
 					),
 					_react2.default.createElement(
 						"p",
 						{ className: "codeoutput" },
-						"\xA0\xA0\xA0\xA0\xA0\xA0=>\xA0\"Shanghai Jiaotong University, Electrical & Computer Engineering Major\"]"
+						"\xA0\xA0\xA0\xA0\xA0\xA0=>\xA0\"Shanghai Jiaotong University, Electrical & Computer Engineering Major\" ]"
 					),
 					_react2.default.createElement(
 						"p",
@@ -9382,7 +9394,7 @@ var AboutPage = function (_React$Component) {
 						{ className: "codeoutput" },
 						"\xA0\xA0\xA0\xA0\xA0\xA0=>\xA0",
 						"{",
-						"UM\": \"April, 2020\", \"SJTU\": \"August, 2020\"",
+						" UM\": \"April, 2020\", \"SJTU\": \"August, 2020\" ",
 						"}"
 					),
 					_react2.default.createElement(
@@ -9398,7 +9410,8 @@ var AboutPage = function (_React$Component) {
 					_react2.default.createElement(
 						"p",
 						{ className: "codeinput" },
-						">\xA0\xA0\xA0\xA0_"
+						">\xA0\xA0\xA0\xA0",
+						this.state.blinking_dash
 					)
 				)
 			);
