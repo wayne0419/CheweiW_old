@@ -77,6 +77,7 @@ main{
 /* About page style*/
 .AboutPagebackground{
 	background:#D28B3B;
+	height: 100vh;
 }
 .codeboard{
 	font-size: 20px;
