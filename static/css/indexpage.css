@@ -77,14 +77,13 @@ main{
 /* About page style*/
 .AboutPagebackground{
 	background:#D28B3B;
-	height: 100vh;
 }
 .codeboard{
 	font-size: 20px;
 	text-align:left;
 	display:inline-block;
 	background:#383737;
-	margin: 200px 0 100px 0;
+	margin: 200px 0 200px 0;
 	width:60%;
 	height:500px;
 	padding: 50px;

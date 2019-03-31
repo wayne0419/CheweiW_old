@@ -9448,8 +9448,8 @@ var ResumePage = function (_React$Component) {
 				{ className: "ResumePagebackground" },
 				_react2.default.createElement(
 					"a",
-					{ href: "static/image/Resume(Letter+USA+Web).pdf" },
-					_react2.default.createElement("img", { className: "resume_photo", src: "static/image/Resume(Letter+USA+Web).png" })
+					{ href: "static/image/CheWeiWangResume(Letter).pdf" },
+					_react2.default.createElement("img", { className: "resume_photo", src: "static/image/CheWeiWangResume(Letter).png" })
 				)
 			);
 		}
