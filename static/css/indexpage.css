@@ -77,7 +77,6 @@ main{
 /* About page style*/
 .AboutPagebackground{
 	background:#D28B3B;
-	height:200vh;
 }
 .codeboard{
 	font-size: 20px;
@@ -111,12 +110,10 @@ main{
 /*ResumePage style*/
 .ResumePagebackground{
 	background:#6AA0AA;
-	height:200vh;
 }
 .resume_photo{
 	margin: 200px;
 	width:40%;
-	
 }
 
 

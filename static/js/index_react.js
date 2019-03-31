@@ -9357,8 +9357,13 @@ var AboutPage = function (_React$Component) {
 					),
 					_react2.default.createElement(
 						"p",
+						{ className: "codeoutputNotend" },
+						"\xA0\xA0\xA0\xA0\xA0\xA0=>\xA0[\"University of Michigan, Computer Science Major.\", /"
+					),
+					_react2.default.createElement(
+						"p",
 						{ className: "codeoutput" },
-						"\xA0\xA0\xA0\xA0\xA0\xA0=>\xA0\"University of Michigan, Computer Science major.\""
+						"\xA0\xA0\xA0\xA0\xA0\xA0=>\xA0\"Shanghai Jiaotong University, Electrical & Computer Engineering Major\"]"
 					),
 					_react2.default.createElement(
 						"p",
@@ -9368,7 +9373,10 @@ var AboutPage = function (_React$Component) {
 					_react2.default.createElement(
 						"p",
 						{ className: "codeoutput" },
-						"\xA0\xA0\xA0\xA0\xA0\xA0=>\xA0\"April, 2020.\""
+						"\xA0\xA0\xA0\xA0\xA0\xA0=>\xA0",
+						"{",
+						"UM\":\"April, 2020\",\"SJTU\":\"August, 2020\"",
+						"}"
 					),
 					_react2.default.createElement(
 						"p",
