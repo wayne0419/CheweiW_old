@@ -9423,7 +9423,7 @@ var AboutPage = function (_React$Component) {
 						{ className: "codeoutput" },
 						"\xA0\xA0\xA0\xA0\xA0\xA0=>\xA0",
 						"{",
-						" UM\": \"April, 2020\", \"SJTU\": \"August, 2020\" ",
+						" \"UM\": \"April, 2020\", \"SJTU\": \"August, 2020\" ",
 						"}"
 					),
 					_react2.default.createElement(
