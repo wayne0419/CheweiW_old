@@ -1,0 +1,40 @@
+/* Resume page only */
+.ResumePagebackground{
+	text-align:center;
+	background:#4C5364;
+	padding-top: 200px;
+}
+
+.ResumeCard{
+	font-family: Helvetica, sans-serif, Arial;
+	display:inline-block;
+	width:60%;
+	color:#ffffff;
+	text-align:left;
+}
+.ResumeCard h1{
+	font-size: 28px;
+	border-style: solid;
+	border-width:0 0 1px 0;
+	padding:0 0 10px 0;
+	letter-spacing: 0.1em;
+}
+.ResumeCard h2{
+	font-size: 24px;
+	line-height:34px;
+	font-weight:900;
+	
+}
+.ResumeCard p, .ResumeCard li{
+	font-size: 19px;
+	line-height:34px;
+}
+.ResumeCard ul{
+	padding:0 0 0 3%;
+}
+.ResumeCard li{
+	list-style: circle;
+}
+.ResumeCard_small_section{
+	margin: 0 0 30px 0;
+}

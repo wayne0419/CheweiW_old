@@ -9226,6 +9226,10 @@ var _ResumePage = __webpack_require__(34);
 
 var _ResumePage2 = _interopRequireDefault(_ResumePage);
 
+var _ProjectPage = __webpack_require__(35);
+
+var _ProjectPage2 = _interopRequireDefault(_ProjectPage);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -9265,7 +9269,7 @@ var MainStuff = function (_React$Component) {
 	}, {
 		key: 'render',
 		value: function render() {
-			if (this.state.show_who === 0) return _react2.default.createElement(_AboutPage2.default, null);else if (this.state.show_who === 1) return _react2.default.createElement(_ResumePage2.default, null);else return "";
+			if (this.state.show_who === 0) return _react2.default.createElement(_AboutPage2.default, null);else if (this.state.show_who === 1) return _react2.default.createElement(_ResumePage2.default, null);else if (this.state.show_who === 2) return _react2.default.createElement(_ProjectPage2.default, null);else return "";
 		}
 	}]);
 
@@ -9471,7 +9475,279 @@ var ResumePage = function (_React$Component) {
 			return _react2.default.createElement(
 				"div",
 				{ className: "ResumePagebackground" },
-				_react2.default.createElement("img", { className: "resume_photo", src: "static/image/CheWeiWangResume(Letter).png" })
+				_react2.default.createElement(
+					"div",
+					{ className: "ResumeCard" },
+					_react2.default.createElement(
+						"div",
+						{ className: "ResumeCard_large_section" },
+						_react2.default.createElement(
+							"h1",
+							null,
+							"Education"
+						),
+						_react2.default.createElement(
+							"div",
+							{ className: "ResumeCard_small_section" },
+							_react2.default.createElement(
+								"h2",
+								null,
+								"University of Michigan, Ann Arbor, MI, USA."
+							),
+							_react2.default.createElement(
+								"p",
+								null,
+								"Bachelor of Science in Engineering in Computer Science, expected graduation in April 2020"
+							)
+						),
+						_react2.default.createElement(
+							"div",
+							{ className: "ResumeCard_small_section" },
+							_react2.default.createElement(
+								"h2",
+								null,
+								"Shanghai Jiao Tong University, Shanghai, China."
+							),
+							_react2.default.createElement(
+								"p",
+								null,
+								"Bachelor of Science in Engineering in Electrical & Computer Engineering, expected graduation in September 2020"
+							)
+						)
+					),
+					_react2.default.createElement(
+						"div",
+						{ className: "ResumeCard_large_section" },
+						_react2.default.createElement(
+							"h1",
+							null,
+							"Courses"
+						),
+						_react2.default.createElement(
+							"div",
+							{ className: "ResumeCard_small_section" },
+							_react2.default.createElement(
+								"ul",
+								null,
+								_react2.default.createElement(
+									"li",
+									null,
+									"Web System"
+								),
+								_react2.default.createElement(
+									"li",
+									null,
+									"Data Structure and Algorithms"
+								),
+								_react2.default.createElement(
+									"li",
+									null,
+									"Introduction to Computer Organization"
+								),
+								_react2.default.createElement(
+									"li",
+									null,
+									"Introduction to Logic Circuit"
+								),
+								_react2.default.createElement(
+									"li",
+									null,
+									"Linear Algebra"
+								),
+								_react2.default.createElement(
+									"li",
+									null,
+									"Discrete Mathematics"
+								),
+								_react2.default.createElement(
+									"li",
+									null,
+									"Probability and Statistics"
+								)
+							)
+						)
+					),
+					_react2.default.createElement(
+						"div",
+						{ className: "ResumeCard_large_section" },
+						_react2.default.createElement(
+							"h1",
+							null,
+							"Programming Languages & Devlopment Tools"
+						),
+						_react2.default.createElement(
+							"div",
+							{ className: "ResumeCard_small_section" },
+							_react2.default.createElement(
+								"h2",
+								null,
+								"Programming Languages"
+							),
+							_react2.default.createElement(
+								"ul",
+								null,
+								_react2.default.createElement(
+									"li",
+									null,
+									"C/C++"
+								),
+								_react2.default.createElement(
+									"li",
+									null,
+									"JavaScript"
+								),
+								_react2.default.createElement(
+									"li",
+									null,
+									"Python"
+								),
+								_react2.default.createElement(
+									"li",
+									null,
+									"MATLAB"
+								),
+								_react2.default.createElement(
+									"li",
+									null,
+									"Bash script"
+								)
+							)
+						),
+						_react2.default.createElement(
+							"div",
+							{ className: "ResumeCard_small_section" },
+							_react2.default.createElement(
+								"h2",
+								null,
+								"Front-end Tools"
+							),
+							_react2.default.createElement(
+								"ul",
+								null,
+								_react2.default.createElement(
+									"li",
+									null,
+									"HTML5/CSS3"
+								),
+								_react2.default.createElement(
+									"li",
+									null,
+									"JavaScript tool: npm/webpack/eslint"
+								),
+								_react2.default.createElement(
+									"li",
+									null,
+									"React"
+								)
+							)
+						),
+						_react2.default.createElement(
+							"div",
+							{ className: "ResumeCard_small_section" },
+							_react2.default.createElement(
+								"h2",
+								null,
+								"Back-end Tools"
+							),
+							_react2.default.createElement(
+								"ul",
+								null,
+								_react2.default.createElement(
+									"li",
+									null,
+									"Python Flask"
+								),
+								_react2.default.createElement(
+									"li",
+									null,
+									"Python Jinja"
+								),
+								_react2.default.createElement(
+									"li",
+									null,
+									"Rest API"
+								),
+								_react2.default.createElement(
+									"li",
+									null,
+									"SQLite"
+								)
+							)
+						),
+						_react2.default.createElement(
+							"div",
+							{ className: "ResumeCard_small_section" },
+							_react2.default.createElement(
+								"h2",
+								null,
+								"Others"
+							),
+							_react2.default.createElement(
+								"ul",
+								null,
+								_react2.default.createElement(
+									"li",
+									null,
+									"Git"
+								),
+								_react2.default.createElement(
+									"li",
+									null,
+									"OS: Windows/Linux"
+								)
+							)
+						)
+					),
+					_react2.default.createElement(
+						"div",
+						{ className: "ResumeCard_large_section" },
+						_react2.default.createElement(
+							"h1",
+							null,
+							"Languages"
+						),
+						_react2.default.createElement(
+							"div",
+							{ className: "ResumeCard_small_section" },
+							_react2.default.createElement(
+								"ul",
+								null,
+								_react2.default.createElement(
+									"li",
+									null,
+									"Mandarin Chinese"
+								),
+								_react2.default.createElement(
+									"li",
+									null,
+									"English"
+								)
+							)
+						)
+					),
+					_react2.default.createElement(
+						"div",
+						{ className: "ResumeCard_large_section" },
+						_react2.default.createElement(
+							"h1",
+							null,
+							"Clubs"
+						),
+						_react2.default.createElement(
+							"div",
+							{ className: "ResumeCard_small_section" },
+							_react2.default.createElement(
+								"ul",
+								null,
+								_react2.default.createElement(
+									"li",
+									null,
+									"UM Wolverine Soft(Game development club)  Sep 2018 - Now"
+								)
+							)
+						)
+					)
+				)
 			);
 		}
 	}]);
@@ -9480,6 +9756,371 @@ var ResumePage = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = ResumePage;
+
+/***/ }),
+/* 35 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(2);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var ProjectPage = function (_React$Component) {
+	_inherits(ProjectPage, _React$Component);
+
+	function ProjectPage(props) {
+		_classCallCheck(this, ProjectPage);
+
+		var _this = _possibleConstructorReturn(this, (ProjectPage.__proto__ || Object.getPrototypeOf(ProjectPage)).call(this, props));
+		//  Initialize mutable state
+
+
+		_this.state = {};
+		return _this;
+	}
+
+	_createClass(ProjectPage, [{
+		key: "componentDidMount",
+		value: function componentDidMount() {}
+	}, {
+		key: "render",
+		value: function render() {
+			return _react2.default.createElement(
+				"div",
+				{ className: "ProjectPagebackground" },
+				_react2.default.createElement(
+					"div",
+					{ className: "ProjectCard" },
+					_react2.default.createElement(
+						"div",
+						{ className: "ProjectCard_large_section" },
+						_react2.default.createElement(
+							"h1",
+							null,
+							"Web Development"
+						),
+						_react2.default.createElement(
+							"div",
+							{ className: "ProjectCard_small_section" },
+							_react2.default.createElement(
+								"h2",
+								null,
+								"Internal Network Web Application \u2013 Ally Financial Inc."
+							),
+							_react2.default.createElement(
+								"p",
+								null,
+								"Collaborate with UM peers from a variety of disciplines, University of Michigan faculty sponsors, and Ally Financial sponsors to deliver a full-stack web application for internal network of Ally\u2019s financial call center in December 2019. Up to now, we have completed investigating, reviewing end-user requirements, and designing of the architecture of the web application. Currently, we are designing and constructing data visualization on the web application."
+							),
+							_react2.default.createElement(
+								"span",
+								{ className: "skill-box" },
+								"HTML"
+							),
+							_react2.default.createElement(
+								"span",
+								{ className: "skill-box" },
+								"CSS"
+							),
+							_react2.default.createElement(
+								"span",
+								{ className: "skill-box" },
+								"JavaScript/React"
+							),
+							_react2.default.createElement(
+								"span",
+								{ className: "skill-box" },
+								"Python/Python Flask"
+							),
+							_react2.default.createElement(
+								"span",
+								{ className: "skill-box" },
+								"SQLite"
+							)
+						),
+						_react2.default.createElement(
+							"div",
+							{ className: "ProjectCard_small_section" },
+							_react2.default.createElement(
+								"h2",
+								null,
+								"Insta485 \u2013 EECS 485 Course Project"
+							),
+							_react2.default.createElement(
+								"p",
+								null,
+								"Develop a simple version of Instagram using Python flask, SQLite and React"
+							),
+							_react2.default.createElement(
+								"p",
+								null,
+								"Deployed with Amazon AWS service at: http://ec2-18-222-206-33.us-east-2.compute.amazonaws.com"
+							),
+							_react2.default.createElement(
+								"span",
+								{ className: "skill-box" },
+								"HTML"
+							),
+							_react2.default.createElement(
+								"span",
+								{ className: "skill-box" },
+								"CSS"
+							),
+							_react2.default.createElement(
+								"span",
+								{ className: "skill-box" },
+								"JavaScript/React"
+							),
+							_react2.default.createElement(
+								"span",
+								{ className: "skill-box" },
+								"Python/Python Flask"
+							),
+							_react2.default.createElement(
+								"span",
+								{ className: "skill-box" },
+								"SQLite"
+							)
+						)
+					),
+					_react2.default.createElement(
+						"div",
+						{ className: "ProjectCard_large_section" },
+						_react2.default.createElement(
+							"h1",
+							null,
+							"Algorithm & Data structure"
+						),
+						_react2.default.createElement(
+							"div",
+							{ className: "ProjectCard_small_section" },
+							_react2.default.createElement(
+								"h2",
+								null,
+								"Letterman game \u2013 EECS 281 Course Project"
+							),
+							_react2.default.createElement(
+								"p",
+								null,
+								"Given \"starting word\", \"ending word\" and a dictionary, together with types of conversions allowed (such as changing one letter to another, adding or deleting a letter, etc) using stack and queue to find how to change from \"starting word\" to \"ending word\"."
+							),
+							_react2.default.createElement(
+								"span",
+								{ className: "skill-box" },
+								"C++"
+							),
+							_react2.default.createElement(
+								"span",
+								{ className: "skill-box" },
+								"Data Structure: Stack, Queue"
+							),
+							_react2.default.createElement(
+								"span",
+								{ className: "skill-box" },
+								"Algorithm: DFS, BFS"
+							)
+						),
+						_react2.default.createElement(
+							"div",
+							{ className: "ProjectCard_small_section" },
+							_react2.default.createElement(
+								"h2",
+								null,
+								"MineEscape game \u2013 EECS 281 Course Project"
+							),
+							_react2.default.createElement(
+								"p",
+								null,
+								"A miner trapped in a mine, given certain map, find the easiest way to get out by finding softest rock and using TNT. The whole program is implemented using priority queue."
+							),
+							_react2.default.createElement(
+								"span",
+								{ className: "skill-box" },
+								"C++"
+							),
+							_react2.default.createElement(
+								"span",
+								{ className: "skill-box" },
+								"Data Structure: Heap(priority_queue)"
+							),
+							_react2.default.createElement(
+								"span",
+								{ className: "skill-box" },
+								"Algorithm: DFS"
+							)
+						),
+						_react2.default.createElement(
+							"div",
+							{ className: "ProjectCard_small_section" },
+							_react2.default.createElement(
+								"h2",
+								null,
+								"Database simulator \u2013 EECS 281 Course Project"
+							),
+							_react2.default.createElement(
+								"p",
+								null,
+								"Using unordered map to simulate operations for database, e.g. Insertion, Deletion, Generate Index, Print, Join two database, Remove, etc."
+							),
+							_react2.default.createElement(
+								"span",
+								{ className: "skill-box" },
+								"C++"
+							),
+							_react2.default.createElement(
+								"span",
+								{ className: "skill-box" },
+								"Data Structure: Hashtable(unordered_map)"
+							)
+						),
+						_react2.default.createElement(
+							"div",
+							{ className: "ProjectCard_small_section" },
+							_react2.default.createElement(
+								"h2",
+								null,
+								"Pokemon catching planner \u2013 EECS 281 Course Project"
+							),
+							_react2.default.createElement(
+								"p",
+								null,
+								"Given a map of Pokemon information, plan the easiest path to catch all of them by using branch and bound, Prim\u2019s algorithm to solve Traveling Salesman Problem."
+							),
+							_react2.default.createElement(
+								"span",
+								{ className: "skill-box" },
+								"C++"
+							),
+							_react2.default.createElement(
+								"span",
+								{ className: "skill-box" },
+								"Algorithm: Prim's algorithm, Traveling Salesman Problem, Branch&Bound"
+							)
+						)
+					),
+					_react2.default.createElement(
+						"div",
+						{ className: "ProjectCard_large_section" },
+						_react2.default.createElement(
+							"h1",
+							null,
+							"Other C++ Projects"
+						),
+						_react2.default.createElement(
+							"div",
+							{ className: "ProjectCard_small_section" },
+							_react2.default.createElement(
+								"h2",
+								null,
+								"Temperature-control Water Bottle \u2013 2017 UM-SJTU Joint Institute Summer Design Expo"
+							),
+							_react2.default.createElement(
+								"p",
+								null,
+								"Design and build a water bottle that allows user to warm up or cool down water temperature.",
+								_react2.default.createElement("img", { className: "poster", src: "static/image/Group6_Poster-1-1.png" }),
+								_react2.default.createElement(
+									"a",
+									{ href: "static/image/Group6_Fantasy_FinalReport-5.pdf", target: "_blank" },
+									"Link to project report"
+								)
+							),
+							_react2.default.createElement(
+								"span",
+								{ className: "skill-box" },
+								"C++"
+							),
+							_react2.default.createElement(
+								"span",
+								{ className: "skill-box" },
+								"Arduino"
+							),
+							_react2.default.createElement(
+								"span",
+								{ className: "skill-box" },
+								"Semiconductor cold plate"
+							)
+						),
+						_react2.default.createElement(
+							"div",
+							{ className: "ProjectCard_small_section" },
+							_react2.default.createElement(
+								"h2",
+								null,
+								"Bridge Crane \u2013 UM-SJTU Joint Institute VG100 Project"
+							),
+							_react2.default.createElement(
+								"p",
+								null,
+								"Design and build a bridge crane and a paper bridge.",
+								_react2.default.createElement(
+									"a",
+									{ href: "static/image/VG100Proj1.mp4", target: "_blank" },
+									"Link to a footage of our bridge crane on game day"
+								)
+							),
+							_react2.default.createElement(
+								"span",
+								{ className: "skill-box" },
+								"C++"
+							),
+							_react2.default.createElement(
+								"span",
+								{ className: "skill-box" },
+								"Arduino"
+							)
+						),
+						_react2.default.createElement(
+							"div",
+							{ className: "ProjectCard_small_section" },
+							_react2.default.createElement(
+								"h2",
+								null,
+								"Robot Lifter \u2013 The 9th SJTU Mechanical Innovation Competition for Freshman"
+							),
+							_react2.default.createElement(
+								"p",
+								null,
+								"Constructed a remote control robot lifter to compete with others robot."
+							),
+							_react2.default.createElement(
+								"span",
+								{ className: "skill-box" },
+								"C++"
+							),
+							_react2.default.createElement(
+								"span",
+								{ className: "skill-box" },
+								"Arduino"
+							)
+						)
+					)
+				)
+			);
+		}
+	}]);
+
+	return ProjectPage;
+}(_react2.default.Component);
+
+exports.default = ProjectPage;
 
 /***/ })
 /******/ ]);
