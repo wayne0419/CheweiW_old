@@ -9315,13 +9315,14 @@ var AboutPage = function (_React$Component) {
 
 		_this.state = { blinking_dash: "_" };
 		_this.dash_blinking = _this.dash_blinking.bind(_this);
+		_this.dasher = 0;
 		return _this;
 	}
 
 	_createClass(AboutPage, [{
 		key: "componentDidMount",
 		value: function componentDidMount() {
-			setInterval(this.dash_blinking, 500);
+			this.dasher = setInterval(this.dash_blinking, 500);
 		}
 	}, {
 		key: "dash_blinking",
@@ -9331,6 +9332,11 @@ var AboutPage = function (_React$Component) {
 			} else {
 				this.setState({ blinking_dash: "_" });
 			}
+		}
+	}, {
+		key: "componentWillUnmount",
+		value: function componentWillUnmount() {
+			clearInterval(this.dasher);
 		}
 	}, {
 		key: "render",

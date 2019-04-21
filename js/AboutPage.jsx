@@ -6,9 +6,10 @@ class AboutPage extends React.Component {
     	super(props);
 		this.state = {blinking_dash: "_"};
 		this.dash_blinking = this.dash_blinking.bind(this);
+		this.dasher = 0;
   	}
 	componentDidMount() {
-		setInterval(this.dash_blinking, 500);
+		this.dasher = setInterval(this.dash_blinking, 500);
 	}
 	dash_blinking() {
 		if(this.state.blinking_dash==="_"){
@@ -17,6 +18,9 @@ class AboutPage extends React.Component {
 		else{
 			this.setState({blinking_dash: "_"});
 		}
+	}
+	componentWillUnmount() {
+		clearInterval(this.dasher);
 	}
 	render() {
 		return (
