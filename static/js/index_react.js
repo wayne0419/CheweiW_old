@@ -9381,12 +9381,12 @@ var AboutPage = function (_React$Component) {
 					_react2.default.createElement(
 						"p",
 						{ className: "codeoutputNotend" },
-						"\xA0\xA0\xA0\xA0\xA0\xA0=>\xA0\"Hi, I am Che Wei Wang (Wayne Wang)."
+						"\"Hi, I am Che Wei Wang (Wayne Wang)."
 					),
 					_react2.default.createElement(
 						"p",
 						{ className: "codeoutput" },
-						"\xA0\xA0\xA0\xA0\xA0\xA0=>\xA0This is my personal website where I practice and showoff :) some web dev skills.\""
+						"This is my personal website where I practice and showoff :) some web dev skills.\""
 					),
 					_react2.default.createElement(
 						"p",
@@ -9396,7 +9396,7 @@ var AboutPage = function (_React$Component) {
 					_react2.default.createElement(
 						"p",
 						{ className: "codeoutput" },
-						"\xA0\xA0\xA0\xA0\xA0\xA0=>\xA0\"Taipei, Taiwan.\""
+						"\"Taipei, Taiwan.\""
 					),
 					_react2.default.createElement(
 						"p",
@@ -9406,12 +9406,12 @@ var AboutPage = function (_React$Component) {
 					_react2.default.createElement(
 						"p",
 						{ className: "codeoutputNotend" },
-						"\xA0\xA0\xA0\xA0\xA0\xA0=>\xA0[ \"University of Michigan, Computer Science Major.\","
+						"[ \"University of Michigan, Computer Science Major.\","
 					),
 					_react2.default.createElement(
 						"p",
 						{ className: "codeoutput" },
-						"\xA0\xA0\xA0\xA0\xA0\xA0=>\xA0\"Shanghai Jiaotong University, Electrical & Computer Engineering Major\" ]"
+						"\"Shanghai Jiaotong University, Electrical & Computer Engineering Major\" ]"
 					),
 					_react2.default.createElement(
 						"p",
@@ -9421,7 +9421,6 @@ var AboutPage = function (_React$Component) {
 					_react2.default.createElement(
 						"p",
 						{ className: "codeoutput" },
-						"\xA0\xA0\xA0\xA0\xA0\xA0=>\xA0",
 						"{",
 						" \"UM\": \"April, 2020\", \"SJTU\": \"August, 2020\" ",
 						"}"
@@ -9434,7 +9433,7 @@ var AboutPage = function (_React$Component) {
 					_react2.default.createElement(
 						"p",
 						{ className: "codeoutput" },
-						"\xA0\xA0\xA0\xA0\xA0\xA0=>\xA0\"I love coding, learning, cooking and playing computer games with friends.\""
+						"\"I love coding, learning, cooking and playing computer games with friends.\""
 					),
 					_react2.default.createElement(
 						"p",
