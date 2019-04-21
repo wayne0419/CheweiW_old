@@ -9269,7 +9269,26 @@ var MainStuff = function (_React$Component) {
 	}, {
 		key: 'render',
 		value: function render() {
-			if (this.state.show_who === 0) return _react2.default.createElement(_AboutPage2.default, null);else if (this.state.show_who === 1) return _react2.default.createElement(_ResumePage2.default, null);else if (this.state.show_who === 2) return _react2.default.createElement(_ProjectPage2.default, null);else return "";
+
+			return _react2.default.createElement(
+				'div',
+				null,
+				_react2.default.createElement(
+					'div',
+					{ id: 'AboutPage' },
+					_react2.default.createElement(_AboutPage2.default, null)
+				),
+				_react2.default.createElement(
+					'div',
+					{ id: 'ResumePage' },
+					_react2.default.createElement(_ResumePage2.default, null)
+				),
+				_react2.default.createElement(
+					'div',
+					{ id: 'ProjectPage' },
+					_react2.default.createElement(_ProjectPage2.default, null)
+				)
+			);
 		}
 	}]);
 

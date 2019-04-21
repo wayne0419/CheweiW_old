@@ -22,14 +22,15 @@ class MainStuff extends React.Component {
 	}
 
   	render(){
-		if(this.state.show_who===0)
-			return(<AboutPage/>);
-		else if(this.state.show_who===1)
-			return(<ResumePage/>);
-		else if(this.state.show_who===2)
-			return(<ProjectPage/>);
-		else
-			return("");
+		
+		return(
+			<div>
+			<div id="AboutPage"><AboutPage/></div>
+			<div id="ResumePage"><ResumePage/></div>
+			<div id="ProjectPage"><ProjectPage/></div>
+			</div>
+		);
+		
   	}
 }
 
