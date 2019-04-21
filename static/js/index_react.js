@@ -9871,7 +9871,12 @@ var ProjectPage = function (_React$Component) {
 							_react2.default.createElement(
 								"p",
 								null,
-								"Deployed with Amazon AWS service at: http://ec2-18-222-206-33.us-east-2.compute.amazonaws.com"
+								"Deployed with Amazon AWS service at: ",
+								_react2.default.createElement(
+									"a",
+									{ href: "http://ec2-18-222-206-33.us-east-2.compute.amazonaws.com", target: "_blank" },
+									"http://ec2-18-222-206-33.us-east-2.compute.amazonaws.com"
+								)
 							),
 							_react2.default.createElement(
 								"span",

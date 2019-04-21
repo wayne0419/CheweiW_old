@@ -32,7 +32,7 @@ class ProjectPage extends React.Component {
 						<div className="ProjectCard_small_section">
 							<h2>Insta485 – EECS 485 Course Project</h2>
 							<p>Develop a simple version of Instagram using Python flask, SQLite and React</p>
-							<p>Deployed with Amazon AWS service at: http://ec2-18-222-206-33.us-east-2.compute.amazonaws.com</p>
+							<p>Deployed with Amazon AWS service at: <a href="http://ec2-18-222-206-33.us-east-2.compute.amazonaws.com" target="_blank">http://ec2-18-222-206-33.us-east-2.compute.amazonaws.com</a></p>
 							
 							<span className="skill-box">HTML</span>
 							<span className="skill-box">CSS</span>
