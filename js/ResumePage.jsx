@@ -14,6 +14,7 @@ class ResumePage extends React.Component {
 		return (
 			<div className="ResumePagebackground">
 				<div className="ResumeCard">
+					<h1>Resume</h1>
 					<div className="ResumeCard_large_section">
 						<h1>Education</h1>
 						<div className="ResumeCard_small_section">

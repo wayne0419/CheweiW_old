@@ -14,6 +14,7 @@ class ProjectPage extends React.Component {
 		return (
 			<div className="ProjectPagebackground">
 				<div className="ProjectCard">
+					<h1>Projects</h1>
 					<div className="ProjectCard_large_section">
 						<h1>Web Development</h1>
 						<div className="ProjectCard_small_section">

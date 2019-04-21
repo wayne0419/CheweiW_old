@@ -9504,6 +9504,11 @@ var ResumePage = function (_React$Component) {
 					"div",
 					{ className: "ResumeCard" },
 					_react2.default.createElement(
+						"h1",
+						null,
+						"Resume"
+					),
+					_react2.default.createElement(
 						"div",
 						{ className: "ResumeCard_large_section" },
 						_react2.default.createElement(
@@ -9833,6 +9838,11 @@ var ProjectPage = function (_React$Component) {
 				_react2.default.createElement(
 					"div",
 					{ className: "ProjectCard" },
+					_react2.default.createElement(
+						"h1",
+						null,
+						"Projects"
+					),
 					_react2.default.createElement(
 						"div",
 						{ className: "ProjectCard_large_section" },
