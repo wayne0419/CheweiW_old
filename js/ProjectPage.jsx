@@ -16,6 +16,25 @@ class ProjectPage extends React.Component {
 				<div className="ProjectCard">
 					<h1>Projects</h1>
 					<div className="ProjectCard_large_section">
+						<h1>Game Development</h1>
+						<div className="ProjectCard_small_section">
+							<h2>Zelda_NES Dungeon rebuild + custom level</h2>
+							<p>Playable at: <a href="http://www-personal.umich.edu/~ddwayne/Zelda_NES/" target="_blank">http://www-personal.umich.edu/~ddwayne/Zelda_NES/</a></p>
+							<span className="skill-box">Unity</span>
+							<span className="skill-box">C#</span>
+							<span className="skill-box">Game Design</span>
+						</div>
+						<div className="ProjectCard_small_section">
+							<h2>Infectant</h2>
+							<p>A 2D reverse-tower-defense game built with Umich Wolverine Soft Studio.</p>
+							<p>Window version Download: <a href="http://www-personal.umich.edu/~ddwayne/Infectant_win.zip" target="_blank">http://www-personal.umich.edu/~ddwayne/Infectant_win.zip</a></p>
+							<p>Mac version Download: <a href="http://www-personal.umich.edu/~ddwayne/Infectant_mac.app.zip" target="_blank">http://www-personal.umich.edu/~ddwayne/Infectant_mac.app.zip</a></p>
+							<span className="skill-box">Unity</span>
+							<span className="skill-box">C#</span>
+							<span className="skill-box">Game Design</span>
+						</div>
+					</div>
+					<div className="ProjectCard_large_section">
 						<h1>Web Development</h1>
 						<div className="ProjectCard_small_section">
 							<h2>Internal Network Web Application – Ally Financial Inc.</h2>
