@@ -18,6 +18,14 @@ class ProjectPage extends React.Component {
 					<div className="ProjectCard_large_section">
 						<h1>Game Development</h1>
 						<div className="ProjectCard_small_section">
+							<h2>Nen: En simulator</h2>
+							<p>A simlation of the ability: Nen:En of a Phantom Rogue mamber Nobunaga Hazama from animie Hunter x Hunter</p>
+							<p>Playable at: <a href="http://www-personal.umich.edu/~ddwayne/Nen_En/" target="_blank">http://www-personal.umich.edu/~ddwayne/Nen_En/</a></p>
+							<span className="skill-box">Unity</span>
+							<span className="skill-box">C#</span>
+							<span className="skill-box">Game Design</span>
+						</div>
+						<div className="ProjectCard_small_section">
 							<h2>Zelda_NES Dungeon rebuild + custom level</h2>
 							<p>Playable at: <a href="http://www-personal.umich.edu/~ddwayne/Zelda_NES/" target="_blank">http://www-personal.umich.edu/~ddwayne/Zelda_NES/</a></p>
 							<span className="skill-box">Unity</span>
