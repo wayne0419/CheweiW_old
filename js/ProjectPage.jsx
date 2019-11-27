@@ -20,7 +20,7 @@ class ProjectPage extends React.Component {
 						<div className="ProjectCard_small_section">
 							<h2>Balloon</h2>
 							<p>You are a ballon and try to push yourself as high as you can. Made in University of Michigan Wolverine Soft 2019 48-hours Turkey Game Jam</p>
-							<p>Downloadable at: <a href="https://itch.io/jam/wsoft-turkey-jam-19/rate/522999" target="_blank">Mac Version</a><a href="https://github.com/wayne0419/Balloon/blob/master/Balloon_win10.zip" target="_blank">Windows Version</a></p>
+							<p>Downloadable at: <a href="https://itch.io/jam/wsoft-turkey-jam-19/rate/522999" target="_blank">Mac Version</a><p>&nbsp;</p><a href="https://github.com/wayne0419/Balloon/blob/master/Balloon_win10.zip" target="_blank">Windows Version</a></p>
 							<span className="skill-box">Unity</span>
 							<span className="skill-box">C#</span>
 							<span className="skill-box">Game Design</span>
