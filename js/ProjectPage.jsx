@@ -18,15 +18,34 @@ class ProjectPage extends React.Component {
 					<div className="ProjectCard_large_section">
 						<h1>Game Development</h1>
 						<div className="ProjectCard_small_section">
+							<h2>Xtraction Point</h2>
+							<p>A 2D game in which two players have to collaborate together to fight against enemies and solve puzzles to escape from a spaceship occupied by space pirates.</p>
+							<p>Built with Unity as a team of four.</p>
+							<p>Require two controllers to play.</p>
+							<p>IndieDB page: <a href="https://www.indiedb.com/games/xtraction-point" target="_blank">https://www.indiedb.com/games/xtraction-point</a></p>
+							<span className="skill-box">Unity</span>
+							<span className="skill-box">C#</span>
+							<span className="skill-box">Game Design</span>
+						</div>
+						<div className="ProjectCard_small_section">
 							<h2>Balloon</h2>
 							<p>You are a ballon and try to push yourself as high as you can.</p>
-							<p>Made in University of Michigan Wolverine Soft 2019 48-hours Turkey Game Jam</p>
+							<p>Made in University of Michigan Wolverine Soft 2019 48-hours Turkey Game Jam.</p>
 							<p>Require a gamepad to play.</p>
 							<p>Downloadable at: <a href="https://itch.io/jam/wsoft-turkey-jam-19/rate/522999" target="_blank">Mac Version</a><span>&nbsp;</span><a href="https://github.com/wayne0419/Balloon/blob/master/Balloon_win10.zip" target="_blank">Windows Version</a></p>
 							<span className="skill-box">Unity</span>
 							<span className="skill-box">C#</span>
 							<span className="skill-box">Game Design</span>
 							<span className="skill-box">Game Jam</span>
+						</div>
+						<div className="ProjectCard_small_section">
+							<h2>Wolverine Soft Studio – Game: Dreamwillow</h2>
+							<p>Collaborated with students from different disciplines(Audio, Art, Designer, Programmer) in Wolverine Soft Studio to design and develop a 2D ARPG game.</p>
+							<p>Require one controller to play.</p>
+							<p>Gameplay footage and final build: <a href="https://drive.google.com/drive/folders/13TCbUWKAUZZKNI3godMcXM-MTRcYQsUg?usp=sharing" target="_blank">https://drive.google.com/drive/folders/13TCbUWKAUZZKNI3godMcXM-MTRcYQsUg?usp=sharing</a></p>
+							<span className="skill-box">Unity</span>
+							<span className="skill-box">C#</span>
+							<span className="skill-box">Game Design</span>
 						</div>
 						<div className="ProjectCard_small_section">
 							<h2>Nen: En simulator</h2>
